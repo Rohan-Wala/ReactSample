@@ -6,6 +6,7 @@ import Profile from "./Profile";
 export default function Myrouter() {
 	return (
 		<BrowserRouter>
+			<Home></Home>
 			<Routes>
 				<Route path="/" element={<Home></Home>}></Route>
 				<Route path="/profile" element={<Profile></Profile>}></Route>
