@@ -5,7 +5,7 @@ import Profile from "./Profile";
 
 export default function Myrouter() {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename="/ReactSample">
 			<Home></Home>
 			<Routes>
 				<Route path="/" element={<Home></Home>}></Route>
